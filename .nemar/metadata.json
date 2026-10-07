@@ -1,0 +1,142 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Hohyun Cho": {
+      "orcid": "0000-0003-1512-0622",
+      "affiliations": [
+        {
+          "name": "National Center for Adaptive Neurotechnologies, Albany, NY 12208, USA"
+        }
+      ]
+    },
+    "Gerwin Schalk": {
+      "orcid": "0000-0003-3443-9487",
+      "affiliations": [
+        {
+          "name": "National Center for Adaptive Neurotechnologies, Albany, NY 12208, USA"
+        }
+      ]
+    },
+    "Markus Adamek": {
+      "orcid": "0000-0001-8519-9212",
+      "affiliations": [
+        {
+          "name": "Department of Neuroscience, Washington University School of Medicine, St. Louis 63130, MO, USA"
+        }
+      ]
+    },
+    "Ladan Moheimanian": {
+      "orcid": "0000-0002-0011-3545",
+      "affiliations": [
+        {
+          "name": "National Center for Adaptive Neurotechnologies, Albany, NY 12208, USA"
+        }
+      ]
+    },
+    "William G. Coon": {
+      "orcid": "0000-0002-2008-8041",
+      "affiliations": [
+        {
+          "name": "Applied Physics Laboratory, Johns Hopkins University, Baltimore, MD 21218, USA"
+        }
+      ]
+    },
+    "Sung Chan Jun": {
+      "orcid": "0000-0001-5357-4436",
+      "affiliations": [
+        {
+          "name": "School of Electrical Engineering and Computer Science, Gwangju Institute of Science and Technology, Gwangju 61005, South Korea"
+        }
+      ]
+    },
+    "Jonathan R. Wolpaw": {
+      "orcid": "0000-0003-0805-1315",
+      "affiliations": [
+        {
+          "name": "National Center for Adaptive Neurotechnologies, Albany, NY 12208, USA"
+        }
+      ]
+    },
+    "Peter Brunner": {
+      "orcid": "0000-0002-2588-2754",
+      "affiliations": [
+        {
+          "name": "Department of Neurosurgery, Washington University School of Medicine, St. Louis 63130, MO, USA"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.4361654",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1101/2021.02.12.430921",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000409",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000409",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "2.20 GB (49 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative dataset contains the authors' downsampled (400 Hz) stimulus-locked, response-locked, and rest epochs, repackaged in iEEG-BIDS. The data support investigation of the physiological origin of event-related potentials.",
+  "methods_description": "Subjects performed a simple reaction-time task with a button press after an auditory stimulus. Channels were excluded and data downsampled to 400 Hz. Epochs were extracted around the stimulus (-1.0 to +1.5 s) and the button press (-1.5 to +1.5 s), plus 1-s rest segments used as baseline.",
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "Reaction Time",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
+    },
+    {
+      "term": "auditory stimulus"
+    }
+  ],
+  "source_hash": "ecbc8a2f799f30618f386d9ee14b043fcf841d87a86f3e650ffb77c81045e58f"
+}
