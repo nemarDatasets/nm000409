@@ -1,0 +1,24 @@
+{
+  "TaskName": "reactiontime",
+  "TaskDescription": "Simple auditory reaction-time task: press a button as fast as possible after an auditory stimulus (task \"react\" in the release parameters).",
+  "InstitutionName": "n/a",
+  "SamplingFrequency": 400.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Resampling": {
+      "Description": "downsampled by the authors to 400 Hz (parameter ResampleFrequency = 400; file suffix _ds); original rate and anti-alias filter not stated"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not documented in the release)",
+  "iEEGPlacementScheme": "Clinically placed subdural electrodes; channels after the authors' exclusion list (see sourcedata parameters)",
+  "ECOGChannelCount": 79,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "epoched",
+  "EpochLength": 3.0,
+  "RecordingDuration": 1680.0,
+  "SourceFile": "Evoked_Potentials_ECoG_Data.zip: data/s2_auditory_ds.mat (ecog.button_data)"
+}

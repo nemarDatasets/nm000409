@@ -1,0 +1,15 @@
+{
+  "Name": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": ["Hohyun Cho", "Gerwin Schalk", "Markus Adamek", "Ladan Moheimanian", "William G. Coon", "Sung Chan Jun", "Jonathan R. Wolpaw", "Peter Brunner"],
+  "Acknowledgements": "Data and code released by the authors as Zenodo record 10.5281/zenodo.4361654 (contact in the record: Peter Brunner). Repackaged as iEEG-BIDS without further processing for NEMAR.",
+  "HowToAcknowledge": "Please cite Cho H, Schalk G, Adamek M, Moheimanian L, Coon WG, Jun SC, Wolpaw JR, Brunner P. Revealing the physiological origin of event-related potentials using electrocorticography in humans. bioRxiv 2021, doi:10.1101/2021.02.12.430921, and the data record doi:10.5281/zenodo.4361654.",
+  "ReferencesAndLinks": ["https://doi.org/10.1101/2021.02.12.430921", "https://doi.org/10.5281/zenodo.4361654"],
+  "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.4361654", "URL": "https://zenodo.org/records/4361654", "Version": "published 2020-12-15"}],
+  "GeneratedBy": [
+    {"Name": "Authors' processing (Cho et al.)", "Description": "Channel exclusion, downsampling to 400 Hz, epoching around auditory stimulus and button press, 1-s rest segments (data/s<k>_auditory_ds.mat)"},
+    {"Name": "b3w1_convert_cho.py (ieeg-nemar-20261005 campaign, batch 3)", "Description": "Format conversion only (BrainVision float32, epochs back to back, events at the alignment points)"}
+  ]
+}

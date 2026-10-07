@@ -1,0 +1,12 @@
+{
+  "trial_type": {
+    "Description": "Event at which the epoch is aligned (auditory stimulus onset or button press); rest_segment = 1-s rest segment"
+  },
+  "epoch": {
+    "Description": "Trial index (1-based); the same index refers to the same trial in the three desc- files of a subject"
+  },
+  "epoch_onset": {
+    "Description": "Start of the epoch in the concatenated file",
+    "Units": "s"
+  }
+}

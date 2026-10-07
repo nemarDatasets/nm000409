@@ -1,0 +1,21 @@
+{
+  "source_id": {
+    "Description": "Subject file prefix in the release (s1-s8)"
+  },
+  "age": {
+    "Description": "Not in the release",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not in the release"
+  },
+  "n_trials": {
+    "Description": "Number of trials"
+  },
+  "n_channels": {
+    "Description": "Number of released channels"
+  },
+  "hemisphere": {
+    "Description": "Implanted hemisphere from the IsRightHemisphere parameter of the release"
+  }
+}

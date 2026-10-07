@@ -1,0 +1,202 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.4361654",
+  "runs": [
+    {
+      "sub": "01",
+      "desc": "stimlocked",
+      "source": "s1_auditory_ds.mat:stim_data",
+      "n_trials": 270,
+      "samples_per_epoch": 1000,
+      "n_channels": 101
+    },
+    {
+      "sub": "01",
+      "desc": "responselocked",
+      "source": "s1_auditory_ds.mat:button_data",
+      "n_trials": 270,
+      "samples_per_epoch": 1200,
+      "n_channels": 101
+    },
+    {
+      "sub": "01",
+      "desc": "rest",
+      "source": "s1_auditory_ds.mat:rest_data",
+      "n_trials": 270,
+      "samples_per_epoch": 400,
+      "n_channels": 101
+    },
+    {
+      "sub": "02",
+      "desc": "stimlocked",
+      "source": "s2_auditory_ds.mat:stim_data",
+      "n_trials": 560,
+      "samples_per_epoch": 1000,
+      "n_channels": 79
+    },
+    {
+      "sub": "02",
+      "desc": "responselocked",
+      "source": "s2_auditory_ds.mat:button_data",
+      "n_trials": 560,
+      "samples_per_epoch": 1200,
+      "n_channels": 79
+    },
+    {
+      "sub": "02",
+      "desc": "rest",
+      "source": "s2_auditory_ds.mat:rest_data",
+      "n_trials": 560,
+      "samples_per_epoch": 400,
+      "n_channels": 79
+    },
+    {
+      "sub": "03",
+      "desc": "stimlocked",
+      "source": "s3_auditory_ds.mat:stim_data",
+      "n_trials": 381,
+      "samples_per_epoch": 1000,
+      "n_channels": 86
+    },
+    {
+      "sub": "03",
+      "desc": "responselocked",
+      "source": "s3_auditory_ds.mat:button_data",
+      "n_trials": 381,
+      "samples_per_epoch": 1200,
+      "n_channels": 86
+    },
+    {
+      "sub": "03",
+      "desc": "rest",
+      "source": "s3_auditory_ds.mat:rest_data",
+      "n_trials": 381,
+      "samples_per_epoch": 400,
+      "n_channels": 86
+    },
+    {
+      "sub": "04",
+      "desc": "stimlocked",
+      "source": "s4_auditory_ds.mat:stim_data",
+      "n_trials": 400,
+      "samples_per_epoch": 1000,
+      "n_channels": 84
+    },
+    {
+      "sub": "04",
+      "desc": "responselocked",
+      "source": "s4_auditory_ds.mat:button_data",
+      "n_trials": 400,
+      "samples_per_epoch": 1200,
+      "n_channels": 84
+    },
+    {
+      "sub": "04",
+      "desc": "rest",
+      "source": "s4_auditory_ds.mat:rest_data",
+      "n_trials": 400,
+      "samples_per_epoch": 400,
+      "n_channels": 84
+    },
+    {
+      "sub": "05",
+      "desc": "stimlocked",
+      "source": "s5_auditory_ds.mat:stim_data",
+      "n_trials": 200,
+      "samples_per_epoch": 1000,
+      "n_channels": 120
+    },
+    {
+      "sub": "05",
+      "desc": "responselocked",
+      "source": "s5_auditory_ds.mat:button_data",
+      "n_trials": 200,
+      "samples_per_epoch": 1200,
+      "n_channels": 120
+    },
+    {
+      "sub": "05",
+      "desc": "rest",
+      "source": "s5_auditory_ds.mat:rest_data",
+      "n_trials": 200,
+      "samples_per_epoch": 400,
+      "n_channels": 120
+    },
+    {
+      "sub": "06",
+      "desc": "stimlocked",
+      "source": "s6_auditory_ds.mat:stim_data",
+      "n_trials": 200,
+      "samples_per_epoch": 1000,
+      "n_channels": 117
+    },
+    {
+      "sub": "06",
+      "desc": "responselocked",
+      "source": "s6_auditory_ds.mat:button_data",
+      "n_trials": 200,
+      "samples_per_epoch": 1200,
+      "n_channels": 117
+    },
+    {
+      "sub": "06",
+      "desc": "rest",
+      "source": "s6_auditory_ds.mat:rest_data",
+      "n_trials": 200,
+      "samples_per_epoch": 400,
+      "n_channels": 117
+    },
+    {
+      "sub": "07",
+      "desc": "stimlocked",
+      "source": "s7_auditory_ds.mat:stim_data",
+      "n_trials": 199,
+      "samples_per_epoch": 1000,
+      "n_channels": 98
+    },
+    {
+      "sub": "07",
+      "desc": "responselocked",
+      "source": "s7_auditory_ds.mat:button_data",
+      "n_trials": 199,
+      "samples_per_epoch": 1200,
+      "n_channels": 98
+    },
+    {
+      "sub": "07",
+      "desc": "rest",
+      "source": "s7_auditory_ds.mat:rest_data",
+      "n_trials": 199,
+      "samples_per_epoch": 400,
+      "n_channels": 98
+    },
+    {
+      "sub": "08",
+      "desc": "stimlocked",
+      "source": "s8_auditory_ds.mat:stim_data",
+      "n_trials": 160,
+      "samples_per_epoch": 1000,
+      "n_channels": 141
+    },
+    {
+      "sub": "08",
+      "desc": "responselocked",
+      "source": "s8_auditory_ds.mat:button_data",
+      "n_trials": 160,
+      "samples_per_epoch": 1200,
+      "n_channels": 141
+    },
+    {
+      "sub": "08",
+      "desc": "rest",
+      "source": "s8_auditory_ds.mat:rest_data",
+      "n_trials": 160,
+      "samples_per_epoch": 400,
+      "n_channels": 141
+    }
+  ],
+  "parameters_removed_fields": [
+    "BrainModelFile",
+    "Subject",
+    "runs2analyze"
+  ]
+}

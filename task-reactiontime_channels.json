@@ -1,0 +1,8 @@
+{
+  "auditory_selected": {
+    "Description": "Channel listed for this subject in data/ach_data_final.mat (auditory channels used in the paper), 1 = yes"
+  },
+  "motor_selected": {
+    "Description": "Channel listed for this subject in data/mch_data_final.mat (motor channels used in the paper), 1 = yes"
+  }
+}

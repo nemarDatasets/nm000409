@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "The release has no channel names; channels are numbered in the column order of the release. A Talairach-space cortical model with electrode positions (s<k>_brain.mat) is in the source record, but its electrode count differs from the channel count, so positions are not assigned to channels here."
+}
