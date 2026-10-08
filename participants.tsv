@@ -1,9 +1,9 @@
-participant_id	source_id	age	sex	n_trials	n_channels	hemisphere
-sub-01	s1	n/a	n/a	270	101	left
-sub-02	s2	n/a	n/a	560	79	left
-sub-03	s3	n/a	n/a	381	86	left
-sub-04	s4	n/a	n/a	400	84	left
-sub-05	s5	n/a	n/a	200	120	left
-sub-06	s6	n/a	n/a	200	117	left
-sub-07	s7	n/a	n/a	199	98	left
-sub-08	s8	n/a	n/a	160	141	left
+participant_id	source_id	age	sex	n_trials	n_channels	hemisphere	implant_type	n_electrodes_in_brain_model
+sub-01	s1	n/a	n/a	270	101	left	ECoG (subdural grids)	98
+sub-02	s2	n/a	n/a	560	79	left	ECoG (subdural grids)	76
+sub-03	s3	n/a	n/a	381	86	left	ECoG (subdural grids)	81
+sub-04	s4	n/a	n/a	400	84	left	ECoG (subdural grids)	79
+sub-05	s5	n/a	n/a	200	120	left	ECoG (subdural grids)	117
+sub-06	s6	n/a	n/a	200	117	left	ECoG (subdural grids)	114
+sub-07	s7	n/a	n/a	199	98	left	ECoG (subdural grids)	98
+sub-08	s8	n/a	n/a	160	141	left	ECoG (subdural grids)	138

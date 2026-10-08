@@ -17,5 +17,13 @@
   },
   "hemisphere": {
     "Description": "Implanted hemisphere from the IsRightHemisphere parameter of the release"
+  },
+  "implant_type": {
+    "Description": "Electrode type",
+    "Source": "doi:10.1101/2021.02.12.430921, Methods 'Subjects' (Ad-Tech / PMT grids, 4 mm platinum-iridium electrodes, 2.3 mm exposed, 10 mm spacing)"
+  },
+  "n_electrodes_in_brain_model": {
+    "Description": "Electrodes with coordinates in the deposit brain model (rows of tala.electrodes)",
+    "Source": "deposit talairach_alignment/s<N>/talairach_tal_brain_model.mat"
   }
 }

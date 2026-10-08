@@ -39,3 +39,15 @@ auditory (`ach_data_final.mat`) and motor (`mch_data_final.mat`) channels.
 ## Licence
 
 CC-BY-4.0, as the source record. Please cite the preprint and the Zenodo record.
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+**Recording system.** BCI2000 with eight 16-channel g.USBamp amplifiers or one 256-channel g.HIamp (g.tec), sampling rate 1,200 Hz; a connector split the cables between the clinical system and the research amplifiers (doi:10.1101/2021.02.12.430921, Methods 'Data collection'). The deposited s<N>_auditory_ds.mat are downsampled ('_ds'): the preprint downsampled 1200 -> 400 Hz after 0.05 Hz high-pass and common median reference (doi:10.1101/2021.02.12.430921, 'Data pre-processing'); each file holds ecog.rest_data, ecog.stim_data, ecog.button_data (samples x channels), ecog.srate, ecog.n_trials, ecog.parameters (Voyager Job ieeg-b3enr-c-cho-erp-1007221214).
+
+**Reference scheme.** Offline common median reference, excluding channels with excessive 60 Hz noise (doi:10.1101/2021.02.12.430921). Hardware reference not stated (n/a).
+
+**Electrode types.** Subdural grids (Ad-Tech Medical, Racine WI; PMT, Chanhassen MN), platinum-iridium, 4 mm diameter (2.3 mm exposed), 10 mm centre-to-centre (doi:10.1101/2021.02.12.430921, Methods 'Subjects').
+
+**Localisation method.** Postoperative radiographs and CT, with MRI, were used to build subject-specific 3D cortical models and derive electrode locations (Coon et al. 2016) (doi:10.1101/2021.02.12.430921). The deposit contains, per subject, the brain model with electrode coordinates (data/s<N>_brain.mat and talairach_alignment/s<N>/orig_brain_model.mat) and the same electrodes aligned to the activeBrain Talairach template (talairach_alignment/s<N>/talairach_tal_brain_model.mat); These positions are not assigned to channels in this dataset: the release has no channel names and each subject's data have 0-5 more columns than the brain model has electrodes (see coordsystem.json), so the electrode-to-channel mapping cannot be verified.
