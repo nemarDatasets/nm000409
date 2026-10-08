@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked and rest epochs, repackaged in iEEG-BIDS. The data support investigation of the physiological origin of event-related potentials.",
+  "methods_description": "ECoG was recorded with BCI2000 using g.USBamp or g.HIamp amplifiers (g.tec) at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Data were high-pass filtered at 0.05 Hz, common median referenced, and downsampled to 400 Hz. They were then epoched around the auditory stimulus (-1.0 to +1.5 s) and button press (-1.5 to +1.5 s), with 1-s rest segments as baseline.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Hohyun Cho": {
       "orcid": "0000-0003-1512-0622",
@@ -67,6 +72,30 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "auditory reaction time"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.4361654",
@@ -89,14 +118,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "2.20 GB (49 files)"
   ],
@@ -108,35 +134,49 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative dataset contains the authors' downsampled (400 Hz) stimulus-locked, response-locked, and rest epochs, repackaged in iEEG-BIDS. The data support investigation of the physiological origin of event-related potentials.",
-  "methods_description": "Subjects performed a simple reaction-time task with a button press after an auditory stimulus. Channels were excluded and data downsampled to 400 Hz. Epochs were extracted around the stimulus (-1.0 to +1.5 s) and the button press (-1.5 to +1.5 s), plus 1-s rest segments used as baseline.",
-  "keywords": [
+  "funding_references": [
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "funder_name": "Fondazione Neurone"
     },
     {
-      "term": "ECoG"
+      "funder_name": "NIH/NIBIB",
+      "award_number": "P41-EB018783"
     },
     {
-      "term": "Evoked Potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+      "funder_name": "NIH/NIBIB",
+      "award_number": "R01-EB026439"
     },
     {
-      "term": "event-related potentials"
+      "funder_name": "NIH/NINDS",
+      "award_number": "U01-NS108916"
     },
     {
-      "term": "Reaction Time",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
+      "funder_name": "NIH/NINDS",
+      "award_number": "U24-NS109103"
     },
     {
-      "term": "auditory stimulus"
+      "funder_name": "NIH/NIMH",
+      "award_number": "P50-MH109429"
+    },
+    {
+      "funder_name": "US Army Research Office",
+      "award_number": "W911NF-07-1-0415"
+    },
+    {
+      "funder_name": "US Army Research Office",
+      "award_number": "W911NF-08-1-0216"
+    },
+    {
+      "funder_name": "US Army Research Office",
+      "award_number": "W911NF-14-1-0440"
+    },
+    {
+      "funder_name": "Institute of Information & Communications Technology Planning & Evaluation (IITP)",
+      "award_number": "2017-0-00451"
     }
   ],
-  "source_hash": "ecbc8a2f799f30618f386d9ee14b043fcf841d87a86f3e650ffb77c81045e58f"
+  "source_hash": "4610d7637d13cc8e80facb105d86b563fd5861c13bb55926b80cca45dbab936e"
 }
