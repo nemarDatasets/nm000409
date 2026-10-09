@@ -16,7 +16,11 @@
     "Description": "Number of released channels"
   },
   "hemisphere": {
-    "Description": "Implanted hemisphere from the IsRightHemisphere parameter of the release"
+    "Description": "Implanted hemisphere (side of the subdural grids). Source: Cho et al. 2021, bioRxiv doi:10.1101/2021.02.12.430921, Methods 'Subjects' (left S1, S3, S6, S7; right S2, S4, S5, S8). The deposit's electrode coordinates agree (talairach_alignment/s<N>/orig_brain_model.mat and talairach_tal_brain_model.mat: x > 0 for 76/76, 79/79 (Talairach; 76/79 native), 117/117 and 138/138 electrodes of s2, s4, s5, s8; x < 0 for all electrodes of s1, s3, s7 and 98/114 of s6). Corrected 2026-10-09: version 1 copied the release analysis parameter IsRightHemisphere, which is 'no' for all eight subjects (sourcedata/zenodo-4361654/sub-XX_parameters.json) and is wrong for four of them.",
+    "Levels": {
+      "left": "left hemisphere",
+      "right": "right hemisphere"
+    }
   },
   "implant_type": {
     "Description": "Electrode type",
