@@ -47,5 +47,7 @@
   "EthicsApprovals": [
     "Institutional Review Board of Albany Medical College",
     "Human Research Protections Office of the U.S. Army Medical Research and Materiel Command"
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000409",
+  "Version": "1.0.0"
 }
