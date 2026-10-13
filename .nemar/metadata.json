@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
-  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked and 1-s rest epochs, repackaged in iEEG-BIDS. The data support investigation of the physiological origin of event-related potentials.",
-  "methods_description": "ECoG was recorded with subdural platinum-iridium grids using BCI2000 with g.USBamp or g.HIamp amplifiers (g.tec) at 1,200 Hz. The authors applied a 0.05 Hz high-pass filter and a common median reference, then downsampled to 400 Hz. They epoched the data around the auditory stimulus and the button press, and extracted 1-s rest segments as baseline.",
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked, and rest epochs, repackaged in iEEG-BIDS. The data accompany a study of the physiological origin of event-related potentials.",
+  "methods_description": "ECoG was recorded with subdural platinum-iridium grids (4 mm diameter, 10 mm spacing) using BCI2000 with g.USBamp or g.HIamp amplifiers at 1,200 Hz. The data were high-pass filtered at 0.05 Hz, common median referenced, and downsampled to 400 Hz. They were then epoched around the auditory stimulus (-1.0 to 1.5 s) and the button press (-1.5 to 1.5 s), with 1-s rest segments as baseline.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -95,7 +95,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
     },
     {
-      "term": "auditory stimulus"
+      "term": "auditory reaction-time task"
     }
   ],
   "related_identifiers": [
@@ -167,18 +167,20 @@
     "ieeg"
   ],
   "sizes": [
-    "2.20 GB (49 files)"
+    "6.70 GB (115 files)"
   ],
   "formats": [
     ".eeg",
     ".json",
+    ".m",
     ".mat",
     ".md",
     ".tsv",
     ".txt",
     ".vhdr",
     ".vmrk",
+    ".xyz",
     ".yml"
   ],
-  "source_hash": "2f233ccd197c3b80ce5b054ce0d12214a486faa3c0e975cdbb76a9070b92f654"
+  "source_hash": "d61a6aff8f59881d32d38121fd1589ebba5bde8601dc848237ba7db3f3e4ee52"
 }
