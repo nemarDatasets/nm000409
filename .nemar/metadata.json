@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
-  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked, and rest epochs, repackaged in iEEG-BIDS. The data accompany a study of the physiological origin of event-related potentials.",
-  "methods_description": "ECoG was recorded with subdural platinum-iridium grids (4 mm diameter, 10 mm spacing) using BCI2000 with g.USBamp or g.HIamp amplifiers at 1,200 Hz. The data were high-pass filtered at 0.05 Hz, common median referenced, and downsampled to 400 Hz. They were then epoched around the auditory stimulus (-1.0 to 1.5 s) and the button press (-1.5 to 1.5 s), with 1-s rest segments as baseline.",
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. The derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked and rest epochs, repackaged in iEEG-BIDS. It supports investigation of the physiological origin of event-related potentials.",
+  "methods_description": "Data were recorded with BCI2000 using g.USBamp or g.HIamp amplifiers at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Preprocessing consisted of 0.05 Hz high-pass filtering, common median reference and downsampling to 400 Hz. Epochs were extracted around the auditory stimulus and button press, plus 1-s rest segments.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -95,7 +95,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
     },
     {
-      "term": "auditory reaction-time task"
+      "term": "auditory task"
     }
   ],
   "related_identifiers": [
