@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000409-blue)](https://doi.org/10.82901/nemar.nm000409)
+
 # ECoG during a simple auditory reaction-time task (derivative)
 
 Electrocorticography (ECoG) from 8 subjects performing a simple reaction-time task (press a button as fast as possible
