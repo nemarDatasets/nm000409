@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
-  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. The release contains downsampled (400 Hz) epochs locked to the stimulus and to the button press, plus 1-s rest segments, repackaged in iEEG-BIDS from the authors' Zenodo deposit. The data support analysis of the physiological origin of event-related potentials.",
-  "methods_description": "ECoG was recorded with BCI2000 using g.USBamp or g.HIamp amplifiers at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Data were high-pass filtered at 0.05 Hz, common median referenced and downsampled to 400 Hz. They were then epoched around the auditory stimulus and the button press, with 1-s rest segments as baseline. Electrode locations were derived from postoperative radiographs/CT and MRI.",
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. This derivative dataset provides the authors' 400 Hz downsampled stimulus-locked, response-locked and rest epochs, repackaged in iEEG-BIDS. It supports investigation of the physiological origin of event-related potentials.",
+  "methods_description": "Data were recorded with BCI2000 using eight 16-channel g.USBamp amplifiers or one 256-channel g.HIamp at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Offline processing consisted of a 0.05 Hz high-pass filter, common median reference, and downsampling to 400 Hz, followed by epoching around the auditory stimulus and button press, plus 1-s rest segments.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -88,12 +88,12 @@
       "term": "event-related potentials"
     },
     {
+      "term": "auditory reaction time"
+    },
+    {
       "term": "Reaction Time",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
-    },
-    {
-      "term": "auditory stimulus"
     }
   ],
   "related_identifiers": [
