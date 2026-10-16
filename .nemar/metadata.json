@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "ECoG during a simple auditory reaction-time task, 8 subjects: stimulus-locked, response-locked and rest epochs at 400 Hz (Cho et al., physiological origin of ERPs)",
-  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. The derivative release contains the authors' downsampled (400 Hz) stimulus-locked, response-locked and rest epochs, repackaged in iEEG-BIDS. It supports investigation of the physiological origin of event-related potentials.",
-  "methods_description": "Data were recorded with BCI2000 using g.USBamp or g.HIamp amplifiers at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Preprocessing consisted of 0.05 Hz high-pass filtering, common median reference and downsampling to 400 Hz. Epochs were extracted around the auditory stimulus and button press, plus 1-s rest segments.",
+  "title": "Cho-2021-revealing-10.1101/2021.02.12.430921",
+  "description": "Electrocorticography (ECoG) recordings from eight human subjects performing a simple auditory reaction-time task, in which they pressed a button as quickly as possible after an auditory stimulus. The release contains downsampled (400 Hz) epochs locked to the stimulus and to the button press, plus 1-s rest segments, repackaged in iEEG-BIDS from the authors' Zenodo deposit. The data support analysis of the physiological origin of event-related potentials.",
+  "methods_description": "ECoG was recorded with BCI2000 using g.USBamp or g.HIamp amplifiers at 1,200 Hz from subdural platinum-iridium grids (4 mm diameter, 10 mm spacing). Data were high-pass filtered at 0.05 Hz, common median referenced and downsampled to 400 Hz. They were then epoched around the auditory stimulus and the button press, with 1-s rest segments as baseline. Electrode locations were derived from postoperative radiographs/CT and MRI.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -85,9 +85,7 @@
       "term": "iEEG"
     },
     {
-      "term": "Evoked Potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+      "term": "event-related potentials"
     },
     {
       "term": "Reaction Time",
@@ -95,7 +93,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D011930"
     },
     {
-      "term": "auditory task"
+      "term": "auditory stimulus"
     }
   ],
   "related_identifiers": [
@@ -182,5 +180,5 @@
     ".xyz",
     ".yml"
   ],
-  "source_hash": "d61a6aff8f59881d32d38121fd1589ebba5bde8601dc848237ba7db3f3e4ee52"
+  "source_hash": "c067b9ebcbc9c4ea1b965505cfb3e45720e053a7f87af20442b95f0eb5592da7"
 }
